@@ -1,7 +1,7 @@
 {
   "name": "gloop",
-  "version": "0.0.0",
-  "description": "Flexible game loop manager.",
+  "version": "0.0.1",
+  "description": "Fixed-timestep game loop manager.",
   "main": "index.js",
   "scripts": {
     "test": "make test"

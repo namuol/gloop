@@ -27,7 +27,9 @@ gloop.on('frame', function (t) {
   // Render logic goes here
   // `t` is a value between 0 and 1 representing the current
   //  temporal position between ticks; use this to interpolate
-  //  rendered motion, if you want.
+  //  rendered motion, if you want. This is especially useful
+  //  if you're using gloop.timeScale for dramatic slow-motion
+  //  effects.
   console.log('Delta between ticks:', t);
 });
 
@@ -51,10 +53,6 @@ gloop.timeScale = 2;
 // Pause/stop looping:
 gloop.stop();
 ```
-
-## API
-
-TODO
 
 ## License
 
