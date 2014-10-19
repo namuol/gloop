@@ -56,7 +56,7 @@
         this.emit('tick', this.dt);
         this.__accum -= this.dt / this.timeScale;
       }
-      return this.emit('draw', (1 - this.__accum / this.dt / this.timeScale) / 1000);
+      return this.emit('frame', (1 - this.__accum / this.dt / this.timeScale) / 1000);
     };
 
     return GameLoop;

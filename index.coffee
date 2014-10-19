@@ -37,7 +37,7 @@ class GameLoop extends EventEmitter
       @emit 'tick', @dt
       @__accum -= @dt/@timeScale
 
-    @emit 'draw', (1 - @__accum / @dt/@timeScale) / 1000
+    @emit 'frame', (1 - @__accum / @dt/@timeScale) / 1000
 
 create = (properties) ->
   return new GameLoop properties
