@@ -1,0 +1,3 @@
+create = ->
+
+module.exports = create
