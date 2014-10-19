@@ -1,4 +1,4 @@
-# bm [![Build Status](https://drone.io/github.com/gitsubio/gloop/status.png)](https://drone.io/github.com/gitsubio/gloop/latest) [![devDependency Status](https://david-dm.org/gitsubio/gloop/dev-status.svg?style=flat-square)](https://david-dm.org/gitsubio/gloop#info=devDependencies)
+# gloop [![Build Status](https://drone.io/github.com/gitsubio/gloop/status.png)](https://drone.io/github.com/gitsubio/gloop/latest) [![dependency Status](https://david-dm.org/gitsubio/gloop/status.svg?style=flat-square)](https://david-dm.org/gitsubio/gloop) [![devDependency Status](https://david-dm.org/gitsubio/gloop/dev-status.svg?style=flat-square)](https://david-dm.org/gitsubio/gloop#info=devDependencies)
 
 Flexible game loop manager.
 
