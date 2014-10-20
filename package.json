@@ -1,7 +1,7 @@
 {
   "name": "gloop",
-  "version": "0.0.1",
-  "description": "Fixed-timestep game loop manager.",
+  "version": "0.0.2",
+  "description": "Fixed-timestep, deterministic game loop manager that supports arbitrary time-scaling.",
   "main": "index.js",
   "scripts": {
     "test": "make test"
@@ -11,9 +11,14 @@
     "url": "git://github.com/gitsubio/gloop"
   },
   "keywords": [
-    "bitmask",
-    "bit",
-    "mask",
+    "game",
+    "loop",
+    "time",
+    "scale",
+    "fixed",
+    "timestep",
+    "deterministic",
+    "requestAnimationFrame",
     "light"
   ],
   "author": "Louis Acresti <louis.acresti@gmail.com> (http://namuol.github.io/)",
